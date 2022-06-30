@@ -1,9 +1,9 @@
 // import { Button } from "bootstrap";
 
-const About = () => {
+const About = (props) => {
   return (
     <>
-      <h1 className="text-center">About</h1>
+      <h1 className="text-center">{props.name}</h1>
     </>
   );
 };

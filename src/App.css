@@ -27,6 +27,17 @@
 .App-link {
   color: #61dafb;
 }
+#basic-navbar-nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+#basic-navbar-nav a.active_class{
+  color: burlywood;
+  border-bottom: 1px solid chartreuse;
+}
+#basic-navbar-nav a:hover{
+  color: #61dafb;
+}
 
 @keyframes App-logo-spin {
   from {
